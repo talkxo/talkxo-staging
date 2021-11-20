@@ -1,0 +1,655 @@
+/*
+  Fiverr Account- tech_line
+	(url)https://www.fiverr.com/tech_line
+  Date : 2021/10/28
+*/
+
+/* 1. Theme default css */
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('../fonts/Gilroy-Regular.woff') format('woff'),
+		url('../fonts/Gilroy-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
+		url('../fonts/Gilroy-Light.woff') format('woff'),
+		url('../fonts/Gilroy-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+		url('../fonts/Gilroy-Medium.woff') format('woff'),
+		url('../fonts/Gilroy-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Thin.woff2') format('woff2'),
+		url('../fonts/Gilroy-Thin.woff') format('woff'),
+		url('../fonts/Gilroy-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+		url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+		url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-RegularItalic.woff2') format('woff2'),
+		url('../fonts/Gilroy-RegularItalic.woff') format('woff'),
+		url('../fonts/Gilroy-RegularItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Black.woff2') format('woff2'),
+		url('../fonts/Gilroy-Black.woff') format('woff'),
+		url('../fonts/Gilroy-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0px;
+	font-weight: 600;
+	text-transform: normal;
+}
+
+p {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 26px;
+	color: #000000;
+	margin-bottom: 15px;
+}
+
+a {
+	font-weight: 600;
+}
+
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+a,
+button {
+	outline: none;
+}
+
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+	float: left
+}
+
+.f-right {
+	float: right
+}
+
+.fix {
+	overflow: hidden
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none
+}
+
+.li-inline {
+	display: inline-block;
+}
+
+.m-auto {
+	margin: 0 auto;
+}
+
+.pos-r {
+	position: relative;
+}
+
+.z-1 {
+	z-index: 1;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="submit"],
+textarea,
+button {
+	border: none;
+	background: #F9F9F9;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+/* button style */
+.btn {
+	-moz-user-select: none;
+	background: #007bff none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 0px;
+	color: #202020;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 0px;
+	line-height: 1;
+	margin-bottom: 0;
+	padding: 20px 40px;
+	text-align: center;
+	text-transform: uppercase;
+	touch-action: manipulation;
+	transition: all 0.3s ease 0s;
+	vertical-align: middle;
+	white-space: nowrap;
+	border: none;
+}
+
+/* =================================================== */
+/* important css for this project */
+.demo-bg {
+	background: #E2E2E2;
+}
+
+.black-bg {
+	background: #000000;
+}
+
+.gray-bg {
+	background: #1A1A1A;
+}
+
+.max-bg {
+	background-color: #ddd;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.overly:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #0087BE;
+	z-index: -1;
+	opacity: .7;
+}
+
+/* scrollup js  */
+#scrollUp {
+	bottom: 30px;
+	right: 30px;
+	font-size: 27px;
+	background: #fff;
+	color: #FDCD36;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	line-height: 1.2;
+	border: 2px solid #15CE49;
+}
+
+/* hero_area start style in here  */
+html,
+body {
+	height: 100%;
+}
+
+.hero_area {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.hero_section h4 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.hero-section h1 {
+	font-size: 120px;
+}
+
+.hero_section h1 {
+	font-size: 120px;
+	font-weight: 900;
+	color: #fff;
+}
+
+.hero_section p {
+	color: #fff;
+	font-weight: 500;
+	padding: 0 265px;
+}
+
+.hero_section {
+	padding: 200px 0;
+}
+
+/* hero_area end style in here  */
+
+/* about_section start style in here  */
+.about_area {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.about_tit {
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.about_text h1 {
+	font-size: 65px;
+	font-weight: 900;
+}
+
+.about_text p {
+	font-weight: 500;
+	padding-right: 65px;
+}
+
+.about_area {
+	padding: 170px 0;
+	padding-bottom: 200px;
+}
+
+.about_img1 {
+	border-right: 10px solid #15CE49;
+	position: absolute;
+	top: 40px;
+	left: 300px;
+	width: 150px;
+	object-fit: cover;
+	height: 110px;
+}
+
+.about_photo {
+	position: relative;
+}
+
+.about_img2 {
+	border-top: 10px solid #1A5CDB;
+	top: 100px;
+	left: 455px;
+	position: absolute;
+	width: 160px;
+	height: 135px;
+}
+
+.about_img3 {
+	border-left: 10px solid #FDCD36;
+	top: 155px;
+	left: 190px;
+	position: absolute;
+	width: 260px;
+	height: 200px;
+}
+
+.about_img4 {
+	width: 49px;
+	height: 46px;
+	position: absolute;
+	background: #EE87A5;
+	top: 240px;
+	left: 455px;
+}
+
+/* about_section end style in here  */
+
+/* check_box start style in here  */
+.check_item {
+	border: 1px solid #FDCD36;
+	padding: 40px 20px;
+	box-shadow: -8px 8px 0px 0 #FDCD36;
+}
+
+.check_item h1 {
+	font-size: 35px;
+	color: #FDCD36;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+
+.check_item p {
+	font-size: 15px;
+	font-weight: 900;
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+.check_item span {
+	font-size: 15px;
+	color: #575757;
+	font-weight: 900;
+}
+
+.check_item.pk {
+	border-color: #EE87A5;
+	box-shadow: -8px 8px 0px 0 #EE87A5;
+}
+
+.check_item.bl {
+	border-color: #1A5CDB;
+	box-shadow: -8px 8px 0px 0 #1A5CDB;
+}
+
+.check_item.gr {
+	border-color: #15CE49;
+	box-shadow: -8px 8px 0px 0 #15CE49;
+}
+
+.check_item.pk h1 {
+	color: #EE87A5;
+}
+
+.check_item.bl h1 {
+	color: #1A5CDB;
+}
+
+.check_item.gr h1 {
+	color: #15CE49;
+}
+
+.check_box {
+	padding: 150px 0;
+}
+
+/* check_box end style in here  */
+
+/* brand_Area start style in here  */
+.brand_area {
+	padding-bottom: 50px;
+}
+
+.brand_titel {
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 70px;
+}
+
+.brand_item {
+	text-align: center;
+}
+
+.brand_item img {
+	max-width: 80%;
+	margin-bottom: 40px;
+}
+
+/* brand_Area end style in here  */
+
+/* team_Area start style in here  */
+.team_titel {
+	font-size: 70px;
+	text-align: center;
+	font-weight: 900;
+	line-height: 1;
+	text-transform: uppercase;
+	padding: 0 100px;
+	margin-bottom: 80px;
+}
+
+.team_area {
+	padding: 20% 0;
+}
+
+.team_img img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.team_item h3 a {
+	text-transform: capitalize;
+	font-weight: 400;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.team_item h3 a:hover {
+	color: inherit;
+}
+
+.team_item h4 {
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1.6;
+}
+
+.team_item p {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+/* team_Area end style in here  */
+
+/* footer area start in here  */
+
+.footer_titel {
+	font-size: 90px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-right: 90px;
+	line-height: 80px;
+	margin-bottom: 60px;
+}
+
+.footer_titel_links {
+	font-size: 24px;
+	color: #000;
+	font-weight: 600;
+}
+
+.footer_titel_links img {
+	margin-left: 20px;
+	transition: .3s;
+}
+
+.footer_titel_links:hover {
+	color: #FDCD36;
+}
+
+.footer_titel_links:hover img {
+	margin-left: 40px;
+}
+
+
+.footer_inner_box {
+	border: 2px solid #000;
+	box-shadow: -10px 10px 0 0 #000;
+	display: flex;
+	margin-top: 140px;
+}
+
+.footer_link {
+	width: 55%;
+	background: #FDCD36;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 25px;
+	align-items: center;
+	border-right: 2px solid #000;
+}
+
+.footer_form {
+	background: #EE87A5;
+	width: 45%;
+	padding: 20px 25px;
+}
+
+.footer_logo img {
+	width: 140px;
+}
+
+.footer_link_list li a {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.footer_link_list li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.footer_social a {
+	text-transform: uppercase;
+	color: #000;
+	position: relative;
+}
+
+.footer_social a:before {
+	width: 100%;
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	content: '';
+	display: block;
+	height: 2px;
+	background: #000;
+	transition: .3s;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+}
+
+.footer_link_list li a:hover {
+	color: #fff;
+}
+
+.footer_social a:hover {
+	color: #fff;
+}
+
+.footer_social a:hover:before {
+	background: #fff;
+}
+
+.footer_form h6 {
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+.footer_form form input {
+	margin: 0;
+	border: 2px solid #000;
+	background: none;
+	font-size: 16px;
+	color: #000;
+	width: 72%;
+	padding: 10px;
+}
+
+.footer_form form button {
+	background: none;
+	font-size: 22px;
+	font-weight: 900;
+	margin: 0;
+}
+
+
+.footer-lt {
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+.footer-lt a {
+	font-weight: 300;
+	color: #000;
+}
+
+/* footer area end in here  */
