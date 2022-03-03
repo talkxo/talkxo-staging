@@ -335,7 +335,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #361CC1 #361CC1 #E1E1E1;
+  border-color: #01BEFF #01BEFF #01BEFF;
   border-radius: 50%;
   border-width: 6px;
 }
