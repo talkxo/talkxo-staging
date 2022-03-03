@@ -218,7 +218,7 @@ p {
 .section-title .sub-title {
   font-size: 18px;
   font-weight: 400;
-  color: #361CC1;
+  color: #01BEFF;
   text-transform: uppercase;
 }
 
@@ -861,7 +861,7 @@ p {
 .navbar-nav .nav-item .sub-menu li a.active,
 .navbar-nav .nav-item .sub-menu li a:hover {
   padding-left: 25px;
-  color: #361CC1;
+  color: #01BEFF;
 }
 
 .navbar-nav .sub-nav-toggler {
@@ -962,7 +962,7 @@ p {
 
 .sticky .navbar-nav .nav-item.active>a,
 .sticky .navbar-nav .nav-item:hover>a {
-  color: #361CC1;
+  color: #01BEFF;
 }
 
 /*===== HEADER HERO =====*/
@@ -1250,7 +1250,7 @@ p {
 }
 
 .single-services .services-content .more:hover {
-  color: #361CC1;
+  color: #01BEFF;
 }
 
 .single-services:hover {
@@ -1489,9 +1489,9 @@ p {
 }
 
 .counter-wrapper .single-counter.counter-color-3::before {
-  background: -webkit-linear-gradient(#361cc1 0%, #2e82ef 100%);
-  background: -o-linear-gradient(#361cc1 0%, #2e82ef 100%);
-  background: linear-gradient(#361cc1 0%, #2e82ef 100%);
+  background: -webkit-linear-gradient(#01BEFF 0%, #2e82ef 100%);
+  background: -o-linear-gradient(#01BEFF 0%, #2e82ef 100%);
+  background: linear-gradient(#01BEFF 0%, #2e82ef 100%);
 }
 
 .counter-wrapper .single-counter .count {
@@ -1857,7 +1857,7 @@ p {
 }
 
 .subscribe-form input:focus {
-  border-color: #361CC1;
+  border-color: #01BEFF;
 }
 
 .subscribe-form button {
@@ -2063,9 +2063,9 @@ p {
   height: 40px;
   line-height: 40px;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
-  background: -o-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
-  background: linear-gradient(to right, #361cc1 0%, #2e82ef 100%);
+  background: -webkit-linear-gradient(left, #01BEFF 0%, #2e82ef 100%);
+  background: -o-linear-gradient(left, #01BEFF 0%, #2e82ef 100%);
+  background: linear-gradient(to right, #01BEFF 0%, #2e82ef 100%);
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
