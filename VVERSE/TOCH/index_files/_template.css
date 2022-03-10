@@ -1,0 +1,288 @@
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: right;
+}
+
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.liveup {
+    animation-name: liveup;
+	-webkit-animation-name: liveup;
+    animation-duration: 500;
+	-webkit-animation-duration: 500;
+}
+.livedown {
+    animation-name: livedown;
+	-webkit-animation-name: livedown;
+    animation-duration: 500;
+	-webkit-animation-duration: 500;
+}
+@-webkit-keyframes liveup {
+    0%  { background:rgba(0,255,0,0.3);}
+    50%  { background:rgba(0,255,0,0.6);}
+    100%  { background:rgba(0,255,0,0.3);}
+}
+@-moz-keyframes liveup {
+    0%  { background:rgba(0,255,0,0.3);}
+    50%  { background:rgba(0,255,0,0.6);}
+    100%  { background:rgba(0,255,0,0.3);}
+}
+@keyframes liveup {
+    0%  { background:rgba(0,255,0,0.3);}
+    50%  { background:rgba(0,255,0,0.6);}
+    100%  { background:rgba(0,255,0,0.3);}
+}
+
+@-webkit-keyframes livedown {
+    0%  { background:rgba(255,0,0,0.3);}
+    50%  { background:rgba(255,0,0,0.6);}
+    100%  { background:rgba(255,0,0,0.3);}
+}
+@-moz-keyframes livedown {
+    0%  { background:rgba(255,0,0,0.3);}
+    50%  { background:rgba(255,0,0,0.6);}
+    100%  { background:rgba(255,0,0,0.3);}
+}
+@keyframes livedown {
+    0%  { background:rgba(255,0,0,0.3);}
+    50%  { background:rgba(255,0,0,0.6);}
+    100%  { background:rgba(255,0,0,0.3);}
+}
+
+.change-up {
+    color: #03a66d!important;
+}
+
+.change-down {
+    color: #cf304a!important;
+}
+
+.uxper-widget-crypto * {
+    box-sizing: border-box;
+}
+
+#ux_crypto_meta_boxes .uxper-widget-crypto {
+    padding: 40px 20px;
+    border: 2px dashed #eee;
+}
+
+.uxper-ticker {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    visibility: hidden;
+    max-width: 100%;
+}
+.uxper-ticker .uxper-widget-wrap {
+    background-color: #fff;
+    color: #333;
+}
+.uxper-ticker .inner-wrap {
+	font-size: 14px;
+    overflow: hidden;
+}
+.uxper-ticker .infinite-ticker {
+    display: flex;
+    flex-wrap: nowrap;
+	position: relative;
+	width: 100%;
+    white-space: nowrap;
+	-webkit-animation: ticker 0s linear infinite 0s normal;
+	-moz-animation: ticker 0s linear infinite 0s normal;
+	animation: ticker 0s linear infinite 0s normal;
+}
+.uxper-ticker .uxper-widget-wrap:hover .infinite-ticker {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	animation-play-state: paused;
+}
+.uxper-ticker .infinite-ticker .item-dup {
+	display: inline;
+}
+.uxper-ticker .infinite-ticker .item {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+}
+@-webkit-keyframes ticker {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+  
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+  
+@keyframes ticker {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+  
+    100% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+.uxper-ticker .item .entry-image {
+    display: inline-flex;
+    margin-right: 10px;
+    width: 25px;
+}
+
+.uxper-ticker .item .entry-image img {  
+    width: 100%;
+    height: 25px;
+    object-fit: cover;
+}
+
+.uxper-ticker .item .item-detail,.uxper-ticker .item .entry-detail,.uxper-ticker .item .extra-detail {
+    display: flex;
+}
+
+.uxper-ticker .item .entry-detail,.uxper-ticker .item .extra-detail {
+    align-items: center;
+}
+
+.uxper-ticker .item .entry-detail .name {
+    padding-right: 10px;
+}
+
+.uxper-ticker .item .coin-24h-change {
+    padding-left: 10px;
+}
+
+.uxper-ticker .item .chart {
+    padding-left: 10px;
+}
+
+.uxper-ticker.has-chart .item .item-detail {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.uxper-ticker.has-chart .item .item-detail .entry-detail {
+    padding-bottom: 3px;
+    width: 100%;
+}
+
+.coin-price {
+    display: flex;
+}
+
+.uxper-ticker.top,.uxper-ticker.bottom {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+}
+
+.uxper-ticker.top {
+    top: 0;
+}
+
+.uxper-ticker.bottom {
+    bottom: 0;
+}
+
+.uxper-crypto-table table {
+    text-align: right;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.uxper-crypto-table th,.uxper-crypto-table td {
+	padding: 10px;
+    border-bottom: 1px solid #EAECEF;
+}
+
+.uxper-crypto-table th {
+    border-top: 1px solid #EAECEF;
+}
+
+.uxper-crypto-table table .name {
+    text-align: left;
+}
+
+.uxper-crypto-table table .coin-price {
+    justify-content: right;
+}
+
+.uxper-crypto-table table tr:hover td {
+    background-color: #f8fafd;
+    color: #333;
+}
+
+.coin-name {
+    display: flex;
+    align-items: center;
+}
+
+.coin-name img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.coin-name .symbol {
+    color: #808a9d;
+    margin-left: 10px;
+}
+
+.uxper-ticker .chart {
+    width: 120px;
+}
+
+.chart img {
+    width: 100%;
+    height: 30px;
+}
+
+.uxper-converter .entry-select {
+    display: flex;
+}
+
+.uxper-converter .entry-select + .entry-select {
+    margin-top: 10px;
+}
+
+.uxper-converter .entry-select select,.uxper-converter .entry-select input {
+    padding: 10px;
+    flex: 1;
+}
+
+.uxper-converter .entry-select select {
+    max-width: 200px;
+}
+
+.uxper-converter .select2 .select2-selection {
+    height: 50px;
+}
+
+.uxper-converter .select2 .select2-selection span {
+    line-height: 50px;
+    height: 50px;
+}
+
+.select2-container li {
+    margin-left: 0;
+    margin-right: 0;
+}
