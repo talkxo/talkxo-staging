@@ -39,6 +39,7 @@ body {
   font-style: normal;
   color: #6A6972;
   overflow-x: hidden;
+  background: #080808;
 }
 
 * {
@@ -89,7 +90,7 @@ h5,
 h6 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
-  color: #2E2E2E;
+  color: #FFF;
   margin: 0px;
 }
 
@@ -128,7 +129,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  color: #808080;
+  color: #fff;
   margin: 0px;
 }
 
@@ -637,7 +638,7 @@ p {
 .sticky {
   position: fixed;
   z-index: 99;
-  background-color: #fff;
+  background-color: #080808;
   -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
@@ -728,7 +729,7 @@ p {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #000000;
     z-index: 9;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
@@ -941,9 +942,9 @@ p {
 .navbar-btn .main-btn {
   height: 45px;
   line-height: 45px;
-  background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background: -webkit-linear-gradient(left, #694DFA 0%, #fe6e9a 50%, #694DFA 100%);
+  background: -o-linear-gradient(left, #694DFA 0%, #fe6e9a 50%, #694DFA 100%);
+  background: linear-gradient(to right, #694DFA 0%, #fe6e9a 50%, #694DFA 100%);
   background-size: 200%;
 }
 
@@ -1112,7 +1113,7 @@ p {
       04.SERVICES css
 ===========================*/
 .single-services {
-  background-color: #fff;
+  background-color: #16161c;
   -webkit-box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
   -moz-box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
   box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
@@ -1159,7 +1160,7 @@ p {
   .single-services .services-content .services-title a {
     font-size: 26px;
     font-weight: 700;
-    color: #2E2E2E;
+    color: #FFF;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -1182,7 +1183,7 @@ p {
     margin-top: 30px;
     font-size: 16px;
     font-weight: 400;
-    color: #2E2E2E;
+    color: #FFF;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -1193,7 +1194,7 @@ p {
     .single-services .services-content .more:hover {
       color: #361CC1; }
   .single-services:hover {
-    border-color: #FE7A7B; }
+    border-color: #694DFA; }
     .single-services:hover .services-icon .shape {
       -webkit-transform: rotate(25deg);
       -moz-transform: rotate(25deg);
@@ -1257,9 +1258,9 @@ p {
 }
 
 .about-content .main-btn {
-  background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background: -webkit-linear-gradient(left, #694DFA 0%, #fe6e9a 50%, #694DFA 100%);
+  background: -o-linear-gradient(left, #694DFA 0%, #fe6e9a 50%, #694DFA 100%);
+  background: linear-gradient(to right, #694DFA 0%, #fe6e9a 50%, #694DFA 100%);
   background-size: 200%;
   height: 50px;
   line-height: 50px;
@@ -1323,7 +1324,7 @@ p {
   text-align: center;
   border-radius: 50%;
   background-color: #fff;
-  color: #FE8464;
+  color: #694DFA;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1420,9 +1421,9 @@ p {
 }
 
 .counter-wrapper .single-counter.counter-color-2::before {
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: -webkit-linear-gradient(#694DFA 0%, #fe6e9a 100%);
+  background: -o-linear-gradient(#694DFA 0%, #fe6e9a 100%);
+  background: linear-gradient(#694DFA 0%, #fe6e9a 100%);
 }
 
 .counter-wrapper .single-counter.counter-color-3::before {
@@ -1554,7 +1555,7 @@ p {
      08.TESTIMONIAL css
 ===========================*/
 .single-testimonial {
-  background-color: #fff;
+  background-color: #16161c;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
   -moz-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
   box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
@@ -1595,6 +1596,8 @@ p {
 
 .single-testimonial .testimonial-text {
   margin-top: 25px;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .single-testimonial .testimonial-author {
@@ -1730,7 +1733,7 @@ p {
   -moz-box-shadow: 0px 0px 18px 0px rgba(50, 77, 215, 0.14);
   box-shadow: 0px 0px 18px 0px rgba(50, 77, 215, 0.14);
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #16161c;
 }
 
 @media (max-width: 767px) {
@@ -1806,9 +1809,9 @@ p {
   border-bottom-right-radius: 5px;
   height: 65px;
   line-height: 65px;
-  background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background: -webkit-linear-gradient(left, #694DFA 0%, #fe6e9a 50%, #694DFA 100%);
+  background: -o-linear-gradient(left, #694DFA 0%, #fe6e9a 50%, #694DFA 100%);
+  background: linear-gradient(to right, #694DFA 0%, #fe6e9a 50%, #694DFA 100%);
   background-size: 200%;
 }
 
@@ -1920,7 +1923,7 @@ p {
 }
 
 .footer-about .social li a:hover {
-  color: #FE8464;
+  color: #694DFA;
 }
 
 .footer-title .title {
@@ -1959,7 +1962,7 @@ p {
 }
 
 .link-wrapper .link li a:hover {
-  color: #FE8464;
+  color: #694DFA;
 }
 
 .footer-contact .contact {
@@ -1998,7 +2001,7 @@ p {
 }
 
 .copyright-content a:hover {
-  color: #FE8464;
+  color: #694DFA;
 }
 
 /*===== BACK TO TOP =====*/

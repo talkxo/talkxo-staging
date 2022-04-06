@@ -1,0 +1,26 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  margin: 0 auto;
+}
+.animation_container {
+  position: fixed;
+  width: 25%;
+  left : 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.dummy {
+  position: relative;
+  background: rgba(0 0 0 / .1);
+  padding: 3000px 0;
+  width: 100%;
+}
