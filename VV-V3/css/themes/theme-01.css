@@ -767,6 +767,7 @@ h6,
   color: #212121;
 }
 .bg-dark.tag-text:not([class*="txt-"]),
+.bg-blue.tag-text:not([class*="txt-"]),
 .bg-default.tag-text:not([class*="txt-"]),
 .bg-primary.tag-text:not([class*="txt-"]),
 .bg-secondary.tag-text:not([class*="txt-"]) {
@@ -866,6 +867,9 @@ a.link-white {
 }
 .bg-dark {
   background-color: #212121;
+}
+.bg-blue {
+  background-color: #01BFFF;
 }
 .bg-light {
   background-color: #f1f1f1;
